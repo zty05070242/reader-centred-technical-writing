@@ -8,59 +8,79 @@ The skill is intended for research papers, dissertations, literature reviews, re
 
 ## See what changes
 
-These are illustrative revisions, not measured model outputs. The study details and numbers are hypothetical.
+The examples below are quoted from Enzo De Sena's *Audio Research Seminars: Technical writing* (15 October 2024). The references identify the slide numbers printed in the lecture, rather than the PDF page numbers. Punctuation has been lightly normalised; the explanations following the quotations are commentary added for this README.
 
-### 1. Same facts, different emphasis
+### 1. Word order changes how much work the reader does
 
-Suppose an audio filter reduces background noise but softens drum attacks. Which sentence fits your question?
+*Slide 35: Gopen's approach.*
 
-**If the question is whether it preserves transients:**
+> In the second study, people performed the task twice.
 
-> Although the filter reduced background noise, it softened the drum attacks.
+> Study participants, in the second study, twice performed the task.
 
-**If the question is whether it removes noise:**
+The first version establishes the setting, then lets the subject and action follow naturally. The second interrupts that progression. This is the kind of change the skill looks for before reaching for more sophisticated vocabulary.
 
-> Although the filter softened the drum attacks, it reduced background noise.
+### 2. Put the action in the verb
 
-The facts stay the same. The ending changes what the reader carries away. The skill asks which finding deserves emphasis in the argument, while keeping both findings visible.
+*Slide 38: Verb.*
 
-### 2. Let the verb do the work
+The lecture presents these three versions:
 
-**Before**
+> What would be the student reaction accorded by the imposition of such a requirement?
 
-> An evaluation of the effect of window length on the estimate was carried out.
+> How would the students react to such a requirement?
 
-**After**
+> How would the students react if the Dean imposed the new requirement?
 
-> We evaluated how window length affected the estimate.
+The later versions let *react* and *imposed* carry the actions that were buried in *reaction* and *imposition*. The third also identifies who imposes the requirement. The skill uses the author's intended meaning to choose how much of that relationship to make explicit.
 
-The revision puts the action in the verb and makes it clear who did the work. If the document requires an impersonal style, “The study evaluated…” may fit better. The technical term *window length* stays because it carries useful meaning.
+### 3. The ending changes the impression
 
-### 3. Turn an experiment diary into a reasoned decision
+*Slide 39: Stress position.*
 
-**Before**
+> Although Fred is a nice guy, he beats his dog.
 
-> The aim was to balance pitch accuracy and processing time. Three window lengths were tested: 10, 20, and 40 ms. Pitch error rates were 12%, 7%, and 6%, respectively. Median processing times were 2, 4, and 9 ms. The 20 ms window was selected for the prototype.
+> Although Fred beats his dog, he's a nice guy.
 
-**After**
+Both sentences contain the same two assertions, but they leave the reader with different impressions. The main clause and sentence ending receive emphasis. The skill checks whether that emphasis matches the point the author intends to make.
 
-> A 20 ms window was selected for the prototype to balance pitch accuracy and processing time. Increasing the window from 10 to 20 ms reduced the pitch error rate from 12% to 7%, while median processing time rose from 2 to 4 ms. Extending the window to 40 ms reduced the error rate by a further one percentage point but increased median processing time to 9 ms.
+### 4. Is the point the accident, or where it happened?
 
-The paragraph now opens with the decision and explains the tradeoff behind it. Every measurement survives. The reader can assess the choice without reconstructing the argument from a list of results.
+*Slide 41: Stress position.*
 
-### 4. Make a strong result precise
+> When I went downtown yesterday, I had a car accident.
 
-Suppose the supplied results show that mean recognition accuracy increased from 78% to 84% across 12 speakers, but accuracy fell for three speakers.
+> When I had the car accident yesterday, I was downtown.
 
-**Before**
+The first sentence makes the accident the news. The second uses the accident as the starting point and makes the location the news. A revision needs to know what the reader already knows and what the sentence is meant to add.
 
-> The denoiser consistently improved recognition accuracy for all speakers.
+### 5. Whose story is the sentence telling?
 
-**After**
+*Slide 42: Topic position.*
 
-> With denoising, mean recognition accuracy across the 12 speakers increased from 78% to 84%, although accuracy fell for three speakers.
+> Jack loves Jill.
 
-The improvement remains clear, and the sentence now matches the evidence. The skill preserves the distinction between an average gain and a benefit for every participant. It also avoids adding claims about statistical significance when no test result has been supplied.
+> Jill is loved by Jack.
+
+The relationship is the same, but the starting point changes from Jack to Jill. This explains why the skill does not automatically replace every passive sentence: the passive can keep the right person or thing in the topic position.
+
+### 6. Give a paragraph a point before developing it
+
+*Slide 45: Coffee paragraph, original and lecture revision.*
+
+**Original**
+
+> When brewing coffee at home, several things should be considered in order to ensure that the highest-possible quality is achieved. One such consideration is the roast and grind of the beans, and another is the container in which they are stored. Freshly roasted beans should be stored in an airtight container and then ground just before brewing.
+
+**Revision shown in the lecture**
+
+> The two most significant influences on the quality of home-brewed coffee are the coffee beans and how they are stored. Coffee beans should be freshly roasted and ground, and stored in an airtight container.
+
+The revision replaces a general announcement about “several things” with a specific opening point. Slide 46 then expands the paragraph with comparisons, references, and a figure before ending with the practical conclusion:
+
+> Therefore, coffee beans should be freshly roasted and ground, and stored in an airtight container.
+
+The progression is **point → evidence → conclusion**. The skill applies that progression while checking that an edit preserves the intended technical details. The studies, percentages, and figure mentioned in slide 46 belong to the lecture's teaching example; they are not presented here as verified research evidence.
 
 ## Quick start
 
