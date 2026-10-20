@@ -6,6 +6,62 @@ The skill is intended for research papers, dissertations, literature reviews, re
 
 **[Read the skill](SKILL.md)** · **[Download the Markdown file](https://raw.githubusercontent.com/zty05070242/reader-centred-technical-writing/main/SKILL.md)**
 
+## See what changes
+
+These are illustrative revisions, not measured model outputs. The study details and numbers are hypothetical.
+
+### 1. Same facts, different emphasis
+
+Suppose an audio filter reduces background noise but softens drum attacks. Which sentence fits your question?
+
+**If the question is whether it preserves transients:**
+
+> Although the filter reduced background noise, it softened the drum attacks.
+
+**If the question is whether it removes noise:**
+
+> Although the filter softened the drum attacks, it reduced background noise.
+
+The facts stay the same. The ending changes what the reader carries away. The skill asks which finding deserves emphasis in the argument, while keeping both findings visible.
+
+### 2. Let the verb do the work
+
+**Before**
+
+> An evaluation of the effect of window length on the estimate was carried out.
+
+**After**
+
+> We evaluated how window length affected the estimate.
+
+The revision puts the action in the verb and makes it clear who did the work. If the document requires an impersonal style, “The study evaluated…” may fit better. The technical term *window length* stays because it carries useful meaning.
+
+### 3. Turn an experiment diary into a reasoned decision
+
+**Before**
+
+> The aim was to balance pitch accuracy and processing time. Three window lengths were tested: 10, 20, and 40 ms. Pitch error rates were 12%, 7%, and 6%, respectively. Median processing times were 2, 4, and 9 ms. The 20 ms window was selected for the prototype.
+
+**After**
+
+> A 20 ms window was selected for the prototype to balance pitch accuracy and processing time. Increasing the window from 10 to 20 ms reduced the pitch error rate from 12% to 7%, while median processing time rose from 2 to 4 ms. Extending the window to 40 ms reduced the error rate by a further one percentage point but increased median processing time to 9 ms.
+
+The paragraph now opens with the decision and explains the tradeoff behind it. Every measurement survives. The reader can assess the choice without reconstructing the argument from a list of results.
+
+### 4. Make a strong result precise
+
+Suppose the supplied results show that mean recognition accuracy increased from 78% to 84% across 12 speakers, but accuracy fell for three speakers.
+
+**Before**
+
+> The denoiser consistently improved recognition accuracy for all speakers.
+
+**After**
+
+> With denoising, mean recognition accuracy across the 12 speakers increased from 78% to 84%, although accuracy fell for three speakers.
+
+The improvement remains clear, and the sentence now matches the evidence. The skill preserves the distinction between an average gain and a benefit for every participant. It also avoids adding claims about statistical significance when no test result has been supplied.
+
 ## Quick start
 
 1. Download [SKILL.md](https://raw.githubusercontent.com/zty05070242/reader-centred-technical-writing/main/SKILL.md). If it opens as text, save it as `SKILL.md`.
@@ -34,18 +90,6 @@ The central sentence-level approach is **whose story → action → intended emp
 At larger scales, the skill develops paragraphs around a clear point, connects evidence to conclusions, and organises sources into an argument. It also covers informative abstracts, quantitative precision, attribution, equations, and a final reading from an unfamiliar reader's perspective.
 
 These are tools for making decisions, rather than a fixed template for every sentence. For example, passive voice can help when it keeps the same topic in view; shortening a passage should not remove an important condition.
-
-### A small example
-
-**Before**
-
-> An evaluation of the effect of window length on the estimate was carried out.
-
-**After**
-
-> We evaluated how window length affected the estimate.
-
-The revision puts the action in the verb and makes the sentence easier to follow. If the document requires an impersonal style, “The study evaluated…” may fit better. Neither version supplies a finding about the size or direction of the effect.
 
 ## Use it for recurring writing
 
